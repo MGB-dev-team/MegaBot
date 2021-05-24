@@ -1,0 +1,30 @@
+{
+  "name": "megabot",
+  "version": "0.1",
+  "main": "src/index",
+  "author": "MeglanDevs",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "eslint-config-tesseract": "^0.0.2"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "diff": "^5.0.0",
+    "discord.js": "^12.5.3",
+    "erela.js": "^2.3.3",
+    "figlet": "^1.5.0",
+    "glob": "^7.1.7",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.10",
+    "ms": "^2.1.3",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.7",
+    "os": "^0.1.1",
+    "path": "^0.12.7",
+    "util": "^0.12.3"
+  }
+}
